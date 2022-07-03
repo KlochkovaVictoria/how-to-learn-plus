@@ -1,7 +1,12 @@
 .footer {
   min-height: 350px;
-  -webkit-box-pack: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  --webkit-box-pack: center;;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #1f1f1f
 }
+
+

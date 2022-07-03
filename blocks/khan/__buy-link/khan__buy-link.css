@@ -4,13 +4,14 @@
   line-height: 42px;
   text-decoration: none;
   color: #2f80ed;
-  margin-left: 48px;
+  margin: 0 0 0 48px;
+  padding: 0;
   opacity: 1;
+  -webkit-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
 }
 
 .khan__buy-link:hover {
   opacity: .5;
-  -webkit-transition: opacity 2s;
-  -o-transition: opacity 2s;
-  transition: opacity 2s;
 }

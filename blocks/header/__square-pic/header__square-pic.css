@@ -2,7 +2,11 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  margin-top: 64px;
   position: absolute;
+  top: 64px;
   right: 0;
+  -webkit-animation: rotation 20s infinite;
+  -moz-animation: rotation 20s infinite;
+  -o-animation: rotation 20s infinite;
+  animation: rotation 20s infinite;
 }

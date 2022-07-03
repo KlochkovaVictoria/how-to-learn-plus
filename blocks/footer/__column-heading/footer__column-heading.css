@@ -8,4 +8,8 @@
   display: -webkit-flex;
   display: -moz-box;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
+
+
