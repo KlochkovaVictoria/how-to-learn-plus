@@ -6,6 +6,7 @@
   --webkit-box-pack: center;;
   -ms-flex-pack: center;
   justify-content: center;
+  box-sizing: border-box;
   background-color: #1f1f1f
 }
 

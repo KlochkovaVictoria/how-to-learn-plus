@@ -5,9 +5,5 @@
   height: 877px;
   position: absolute;
   right: -210px;
-  -webkit-animation: rotation 20s linear infinite;
-  -moz-animation: rotation 20s linear infinite;
-  -o-animation: rotation 20s linear infinite;
-  animation: rotation 20s linear infinite;
   z-index: 2;
 }

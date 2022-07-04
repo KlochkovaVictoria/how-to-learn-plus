@@ -1,3 +1,10 @@
+.rotation {
+  -webkit-animation: rotation 20s linear infinite;
+  -moz-animation: rotation 20s linear infinite;
+  -o-animation: rotation 20s linear infinite;
+  animation: rotation 20s linear infinite;
+}
+
 @keyframes rotation {
   from {
     -webkit-transform: rotate(0deg);

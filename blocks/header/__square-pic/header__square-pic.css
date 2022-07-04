@@ -5,8 +5,5 @@
   position: absolute;
   top: 64px;
   right: 0;
-  -webkit-animation: rotation 20s infinite;
-  -moz-animation: rotation 20s infinite;
-  -o-animation: rotation 20s infinite;
-  animation: rotation 20s infinite;
+  z-index: 1;
 }

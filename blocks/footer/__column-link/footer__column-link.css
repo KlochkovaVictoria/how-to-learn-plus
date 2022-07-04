@@ -6,7 +6,9 @@
   color: white;
   margin: 0 0 10px;
   padding: 0;
-  transition: opacity 2s;
+  transition: opacity .5s linear;
+  -webkit-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
 }
 
 .footer__column-link:nth-of-type(3n) {
@@ -15,6 +17,4 @@
 
 .footer__column-link:hover {
   opacity: .5;
-  -webkit-transition: opacity 2s;
-  -o-transition: opacity 2s;
 }

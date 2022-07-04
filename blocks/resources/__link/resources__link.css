@@ -7,4 +7,12 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  transition: opacity .5s linear;
+  -webkit-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+}
+
+.resources__link:hover {
+  opacity: .5;
+
 }
